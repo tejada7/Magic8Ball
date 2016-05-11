@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "decisionMAker.h"
 
 @interface ViewController ()
 
@@ -14,14 +15,21 @@
 
 @implementation ViewController
 
+@synthesize label = _label;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _decisionMaker = [[decisionMAker alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)eventFire:(id)sender {
+    
+    _label.text = [_decisionMaker generateAnswer];
 }
 
 @end

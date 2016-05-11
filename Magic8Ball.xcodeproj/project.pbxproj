@@ -15,6 +15,8 @@
 		B54E3E6E1CE39A7D0033CE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54E3E6C1CE39A7D0033CE9E /* LaunchScreen.storyboard */; };
 		B54E3E791CE39A7E0033CE9E /* Magic8BallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54E3E781CE39A7E0033CE9E /* Magic8BallTests.m */; };
 		B54E3E841CE39A7E0033CE9E /* Magic8BallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54E3E831CE39A7E0033CE9E /* Magic8BallUITests.m */; };
+		B54E3E921CE39F650033CE9E /* MAGIC8BALL.gif in Resources */ = {isa = PBXBuildFile; fileRef = B54E3E911CE39F650033CE9E /* MAGIC8BALL.gif */; };
+		B54E3E981CE3A1860033CE9E /* decisionMAker.m in Sources */ = {isa = PBXBuildFile; fileRef = B54E3E971CE3A1860033CE9E /* decisionMAker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		B54E3E7F1CE39A7E0033CE9E /* Magic8BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magic8BallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54E3E831CE39A7E0033CE9E /* Magic8BallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magic8BallUITests.m; sourceTree = "<group>"; };
 		B54E3E851CE39A7E0033CE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54E3E911CE39F650033CE9E /* MAGIC8BALL.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = MAGIC8BALL.gif; path = ../../MAGIC8BALL.gif; sourceTree = "<group>"; };
+		B54E3E961CE3A1860033CE9E /* decisionMAker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decisionMAker.h; path = ../decisionMAker.h; sourceTree = "<group>"; };
+		B54E3E971CE3A1860033CE9E /* decisionMAker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = decisionMAker.m; path = ../decisionMAker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		B54E3E5D1CE39A7D0033CE9E /* Magic8Ball */ = {
 			isa = PBXGroup;
 			children = (
+				B54E3E961CE3A1860033CE9E /* decisionMAker.h */,
+				B54E3E971CE3A1860033CE9E /* decisionMAker.m */,
 				B54E3E611CE39A7D0033CE9E /* AppDelegate.h */,
 				B54E3E621CE39A7D0033CE9E /* AppDelegate.m */,
 				B54E3E641CE39A7D0033CE9E /* ViewController.h */,
 				B54E3E651CE39A7D0033CE9E /* ViewController.m */,
+				B54E3E911CE39F650033CE9E /* MAGIC8BALL.gif */,
 				B54E3E671CE39A7D0033CE9E /* Main.storyboard */,
 				B54E3E6A1CE39A7D0033CE9E /* Assets.xcassets */,
 				B54E3E6C1CE39A7D0033CE9E /* LaunchScreen.storyboard */,
@@ -245,6 +253,7 @@
 			files = (
 				B54E3E6E1CE39A7D0033CE9E /* LaunchScreen.storyboard in Resources */,
 				B54E3E6B1CE39A7D0033CE9E /* Assets.xcassets in Resources */,
+				B54E3E921CE39F650033CE9E /* MAGIC8BALL.gif in Resources */,
 				B54E3E691CE39A7D0033CE9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54E3E981CE3A1860033CE9E /* decisionMAker.m in Sources */,
 				B54E3E661CE39A7D0033CE9E /* ViewController.m in Sources */,
 				B54E3E631CE39A7D0033CE9E /* AppDelegate.m in Sources */,
 				B54E3E601CE39A7D0033CE9E /* main.m in Sources */,

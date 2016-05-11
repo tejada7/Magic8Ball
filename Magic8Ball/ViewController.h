@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DecisionMaker.h"
 
 @interface ViewController : UIViewController
 
+@property IBOutlet UILabel *label;
+@property(strong, nonatomic) decisionMAker * decisionMaker;
 
 @end
 
